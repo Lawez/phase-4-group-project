@@ -2,13 +2,11 @@
 
 ![house.jpg](https://github.com/Lawez/phase-4-group-project/blob/main/house.jpg)
 
-## BUSINESS OVERVIEW
+## BUSINESS OVERVIEW INTRODUCTION
 
 Zillow is a leading online real estate marketplace that provides valuable services and tools for home buyers, sellers, renters, and real estate professionals.
 
 The real estate investment firm is seeking to leverage data-driven insights to identify the best zip codes for real estate investment. The firm aims to make strategic investment decisions based on accurate forecasts of future real estate prices. By investing in the right locations, the company intends to maximize profitability and mitigate risk. The goal is to provide clients with attractive investment opportunities and generate sustainable returns.
-
-### INTRODUCTION
 
 We will be forecasting real estate prices of various zip codes using data from Zillow Research. The Zillow real-estate investment firm has tasked us with finding out which zip codes align with the investment firm's objectives and strategy.
 
@@ -71,14 +69,10 @@ This dataset was obtained from [Zillow Research](https://www.zillow.com/research
 * The rest of the columns are dates that are filled with values in a wide format for readability.
 * The Zillow dataset is sure to make more sense after modelling when we use these values in a long format
 
-
-
 ##### Best Investment
 
 * Definition of "Best Investment" needed a better understanding of the data and what would be best for the firm. This would necessitate looking at the investment firm's objectives, risk tolerance, and investment strategy. What would be best in terms of profitability for the organization or would they rather minimize losses? How would they tolerate risk given downward trend in the data?
 * The need for some of these metrics such as return on investment has brought a need to do feature engineering for the dataset.
-
-
 
 ##### Preprocessing and Feature Engineering
 
@@ -87,21 +81,15 @@ This dataset was obtained from [Zillow Research](https://www.zillow.com/research
   - The convertion of the columns into a date-time column with corresponding value columns allows us to be able to analyse the trends and seasons.
 - The creation of the ROI and ROI2 columns also serves as a process of feature engineering as these columns will be used to perform evaluation at the end of the modelling section.
 
-
-
 ##### Modeling
 
 * In this section, our cleaned data will modeled to predict what may be a future trend. It is also assessed for any trends as well as seasonality.
-
-
 
 ##### Metric of Success
 
 * This is where we use measures such as return on investments (ROI) as well as risk assesment to determine whether the project has met the requirements.
 * Return on investments measures the returns against the initial cost. The higher the difference the more beneficial the investment is. The aim is to have a high value as possible here in  order to maximize profitability
 * Another measure is risk assesment as we need to determine the investments with the least risks because this will translate to higher returns. The lower the probable risks the better for our data
-
-
 
 ##### Evaluation
 
