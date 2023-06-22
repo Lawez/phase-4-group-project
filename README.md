@@ -1,6 +1,6 @@
 # phase-4-group-project
 
-![house.jpg](https://github.com/Lawez/phase-4-group-project/blob/main/house.jpg)
+![house.jpg](https://github.com/Lawez/phase-4-group-project/blob/main/images/house.jpg)
 
 ## BUSINESS OVERVIEW INTRODUCTION
 
@@ -101,11 +101,12 @@ This dataset was obtained from [Zillow Research](https://www.zillow.com/research
   * What is the result and has the metric of success defined previously been met successfully?
 
 ## EDA analysis and Visualization
-Question one
+
+### Question one
 
   *To provide a recommendation for the top 5 best zip codes/city for a real estate investment firm to invest in.*
 
-![Alt text](image3.png)
+![image3.pmg](image3.png)
 
 | Zipcode/city        | Return on Investment |
 |-----------------|----------------------|
@@ -119,9 +120,11 @@ Question one
   
 * Based on the analysis, it is recommended to consider real estate investment opportunities in Los Angeles (90046) and Washington (20009) due to their higher Return on Investment (ROI) compared to New York (11230). These cities have demonstrated favorable ROI percentages of approximately 69.5% and 63.6% respectively.
   
-
+#### Question two
     *What are the historical trends and patterns in real estate prices for different zip codes?*
-![Alt text](image2.png)
+
+![image2.png](image2.png)
+
 
 
 * In each of the regions `"Washington_20002", "Washington_20009", "NewYork_11226", "LosAngeles_90046", "NewYork_11230"`, we can observe the boom and bust cycle that was previously discussed. The boom and bust cycle refers to the pattern of economic growth followed by a period of decline or recession.
@@ -129,9 +132,10 @@ Question one
 * Some regions fared better than others in weathering the post-2008 lows. This can be seen by comparing the depth of the trough, which represents the lowest point in the economic cycle. Regions that experienced a lower trough were more resilient and recovered faster from the economic downturn.
 
 * However, despite the variations in the severity of the bust cycle, all regions have shown an overall upward trend in recent years. This indicates that the economy in each region has been recovering and growing steadily. The upward trend suggests positive economic conditions and reflects the resilience and strength of these regions in bouncing back from the previous recession.
-Question Three
+  
+### Question Three
 
-   *How do different zip codes compare in terms of risk and return on investment?
+*How do different zip codes compare in terms of risk and return on investment?*
 
 | Zipcode/city        | Sharpe Ratio   |
 |-----------------|----------------|
@@ -144,6 +148,7 @@ Question Three
 * The Sharpe ratio of an investment indicates its return per unit of risk and enables investors to assess returns in relation to the level of risk taken.
 
 * In this context, Washington_20009 exhibits the highest risk-adjusted return among the investments considered. This implies that, relative to the level of risk associated with the investment, `Washington_20009` offers the most favorable returns making it potentially more attractive for investment.
+
 ## METHODS
 
 
