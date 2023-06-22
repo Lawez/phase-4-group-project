@@ -124,7 +124,7 @@ This dataset was obtained from [Zillow Research](https://www.zillow.com/research
 * Based on the analysis, it is recommended to consider real estate investment opportunities in Los Angeles (90046) and Washington (20009) due to their higher Return on Investment (ROI) compared to New York (11230). These cities have demonstrated favorable ROI percentages of approximately 69.5% and 63.6% respectively.
   
 #### Question two
-    What are the historical trends and patterns in real estate prices for different zip codes?
+      What are the historical trends and patterns in real estate prices for different zip codes?
 
 
 ![image2.png](https://github.com/Lawez/phase-4-group-project/blob/main/Images/image2.png)
