@@ -127,8 +127,7 @@ This dataset was obtained from [Zillow Research](https://www.zillow.com/research
     *What are the historical trends and patterns in real estate prices for different zip codes?*
 
 
-![image2.png](https://github.com/Lawez/phase-4-group-project/main/blob/Images/image2.png)
-
+![image2.png](https://github.com/Lawez/phase-4-group-project/blob/main/Images/image2.png)
 
 
 * In each of the regions `"Washington_20002", "Washington_20009", "NewYork_11226", "LosAngeles_90046", "NewYork_11230"`, we can observe the boom and bust cycle that was previously discussed. The boom and bust cycle refers to the pattern of economic growth followed by a period of decline or recession.
