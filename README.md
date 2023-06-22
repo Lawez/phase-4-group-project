@@ -1,6 +1,6 @@
 # phase-4-group-project
 
-![housejpg](https://github.com/Lawez/phase-4-group-project/blob/main/images/house.jpg)
+![housejpg](https://github.com/Lawez/phase-4-group-project/blob/main/Images/house.jpg)
 
 ## BUSINESS OVERVIEW INTRODUCTION
 
