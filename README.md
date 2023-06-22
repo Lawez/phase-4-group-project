@@ -4,7 +4,6 @@
 
 ## BUSINESS OVERVIEW INTRODUCTION
 
-
 Zillow is a leading online real estate marketplace that provides valuable services and tools for home buyers, sellers, renters, and real estate professionals.
 
 The real estate investment firm is seeking to leverage data-driven insights to identify the best zip codes for real estate investment. The firm aims to make strategic investment decisions based on accurate forecasts of future real estate prices. By investing in the right locations, the company intends to maximize profitability and mitigate risk. The goal is to provide clients with attractive investment opportunities and generate sustainable returns.
@@ -27,11 +26,8 @@ Selecting an appropriate time series forecasting model can be challenging due to
 The objective of this project is:
 
 1. To provide a recommendation for the top 5 best zip codes for a real estate investment firm to invest in.
-
 2. What are the historical trends and patterns in real estate prices for different zip codes?
-   
 3. How do different zip codes compare in terms of risk and return on investment?
-
 
 #### DATA
 
@@ -105,14 +101,12 @@ This dataset was obtained from [Zillow Research](https://www.zillow.com/research
 
 ### Question one
 
-      To provide a recommendation for the top 5 best zip codes/city for a real estate investment firm to invest in.
-  
+    To provide a recommendation for the top 5 best zip codes/city for a real estate investment firm to invest in.
+
 ![image3.png](https://github.com/Lawez/phase-4-group-project/blob/main/Images/image3.png)
 
-
-
-| Zipcode/city        | Return on Investment |
-|-----------------|----------------------|
+| Zipcode/city     | Return on Investment |
+| ---------------- | -------------------- |
 | Washington_20002 | 0.256557             |
 | Washington_20009 | 0.636023             |
 | NewYork_11226    | 0.243899             |
@@ -120,67 +114,55 @@ This dataset was obtained from [Zillow Research](https://www.zillow.com/research
 | NewYork_11230    | 0.039668             |
 
 * Some cities (Washington & New York) have a higher count of properties, suggesting a larger availability and demand for real estate in those areas.
-  
 * Based on the analysis, it is recommended to consider real estate investment opportunities in Los Angeles (90046) and Washington (20009) due to their higher Return on Investment (ROI) compared to New York (11230). These cities have demonstrated favorable ROI percentages of approximately 69.5% and 63.6% respectively.
-  
-#### Question two
-      What are the historical trends and patterns in real estate prices for different zip codes?
 
+#### Question two
+
+    What are the historical trends and patterns in real estate prices for different zip codes?
 
 ![image2.png](https://github.com/Lawez/phase-4-group-project/blob/main/Images/image2.png)
 
-
 * In each of the regions `"Washington_20002", "Washington_20009", "NewYork_11226", "LosAngeles_90046", "NewYork_11230"`, we can observe the boom and bust cycle that was previously discussed. The boom and bust cycle refers to the pattern of economic growth followed by a period of decline or recession.
-
 * Some regions fared better than others in weathering the post-2008 lows. This can be seen by comparing the depth of the trough, which represents the lowest point in the economic cycle. Regions that experienced a lower trough were more resilient and recovered faster from the economic downturn.
-
 * However, despite the variations in the severity of the bust cycle, all regions have shown an overall upward trend in recent years. This indicates that the economy in each region has been recovering and growing steadily. The upward trend suggests positive economic conditions and reflects the resilience and strength of these regions in bouncing back from the previous recession.
-  
+
 ### Question Three
 
   How do different zip codes compare in terms of risk and return on investment?
 
-| Zipcode/city        | Sharpe Ratio   |
-|-----------------|----------------|
-| Washington_20002 | 326.298586    |
-| Washington_20009 | 518.163312    |
-| NewYork_11226    | 502.199697    |
-| LosAngeles_90046 | 511.920597    |
-| NewYork_11230    | 18.300270     |
+| Zipcode/city     | Sharpe Ratio |
+| ---------------- | ------------ |
+| Washington_20002 | 326.298586   |
+| Washington_20009 | 518.163312   |
+| NewYork_11226    | 502.199697   |
+| LosAngeles_90046 | 511.920597   |
+| NewYork_11230    | 18.300270    |
 
 * The Sharpe ratio of an investment indicates its return per unit of risk and enables investors to assess returns in relation to the level of risk taken.
-
 * In this context, Washington_20009 exhibits the highest risk-adjusted return among the investments considered. This implies that, relative to the level of risk associated with the investment, `Washington_20009` offers the most favorable returns making it potentially more attractive for investment.
 
 ## METHODS
 
+The methods used were Time Series modelling techniques such as ARIMA and AutoARIMA models. The best parameters were determined and used to model the top 5 zipcodes and determine their return on Investment as well as their Sharpe ratio. Of the 5 zipcodes, the best model with the least AIC and BIC was the second zipcode.
 
+![1687413691253](image/README/1687413691253.png)
 
-## RESULTS
-
-
-
-
+Lower values of AIC and BIC indicate a better trade-off between fit and complexity. Based on this criterion, the above has lower AIC and BIC values, suggesting a better fit.
 
 ## CONCLUSION
 
-In conclusion, the analysis of the real estate data provided valuable insights into the property market. Los Angeles (90046) and Washington (20009) stood out as areas with high Return on Investment (ROI) and strong potential for real estate investment. These regions exhibited a significant increase in property values over time, indicating favorable market conditions. Additionally, the geographical distribution analysis revealed the concentration of properties in certain cities, emphasizing the importance of targeted location selection. Considering these findings, it is recommended to further explore investment opportunities in Los Angeles and Washington, while conducting thorough market research, financial analysis, due diligence, and consulting with experts. By following these steps, investors can make informed decisions and potentially capitalize on the high ROI observed in these regions. 
+In conclusion, the analysis of the real estate data provided valuable insights into the property market. Los Angeles (90046) and Washington (20009) stood out as areas with high Return on Investment (ROI) and strong potential for real estate investment. These regions exhibited a significant increase in property values over time, indicating favorable market conditions. Additionally, the geographical distribution analysis revealed the concentration of properties in certain cities, emphasizing the importance of targeted location selection. Considering these findings, it is recommended to further explore investment opportunities in Los Angeles and Washington, while conducting thorough market research, financial analysis, due diligence, and consulting with experts. By following these steps, investors can make informed decisions and potentially capitalize on the high ROI observed in these regions.
 
 ## RECOMMENDATION
 
 - Based on the analysis, it is recommended to consider real estate investment opportunities in Los Angeles (90046) and Washington (20009) due to their higher Return on Investment (ROI) compared to New York (11230). These cities have demonstrated favorable ROI percentages of approximately 69.5% and 63.6% respectively.
-
 - The high ROI in these cities could be attributed to factors such as strong market demand, desirable locations, growing economies, and potential for future property value appreciation.
 
 #### NEXT STEPS
 
 - Conduct in-depth market research: Gather more detailed information about the real estate market in Los Angeles and Washington, including current market trends, rental demand, vacancy rates, and future development plans. This will provide a comprehensive understanding of the market dynamics and potential risks.
-
 - Identify suitable properties: Explore property listings in the recommended areas and evaluate them based on factors such as location, property condition, price, and potential for value appreciation.
-
 - Perform financial analysis: Assess the financial viability of the investment opportunities by calculating potential rental income, expenses (including property taxes and maintenance costs), and projected cash flow. This analysis will help determine the potential return and profitability of the investments.
-
-
 
 **Repository Structure:**
 
@@ -189,6 +171,6 @@ In conclusion, the analysis of the real estate data provided valuable insights i
 ├── images                                                 <- images folder of our notebook 
 ├── presentation.pdf                                       <- PDF version of project presentation 
 ├── LISENCE.md                                             <- LICENCE of the project
-├── README.md                                              <- The top-level README for reviewers of this project                  
+├── README.md                                              <- The top-level README for reviewers of this project              
 └── timeseries.ipynb                                       <- Narrative documentation of analysis in Jupyter notebook
 ```
