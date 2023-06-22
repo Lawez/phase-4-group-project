@@ -108,7 +108,7 @@ This dataset was obtained from [Zillow Research](https://www.zillow.com/research
   *To provide a recommendation for the top 5 best zip codes/city for a real estate investment firm to invest in.*
 
 https://github.com/Lawez/phase-4-group-project/tree/main
-![image3.png](https://github.com/Lawez/phase-4-group-project/tree/main/Image3.png)
+![image3.png](https://github.com/Lawez/phase-4-group-project/blob/main/Images/mage3.png)
 
 | Zipcode/city        | Return on Investment |
 |-----------------|----------------------|
@@ -125,7 +125,7 @@ https://github.com/Lawez/phase-4-group-project/tree/main
 #### Question two
     *What are the historical trends and patterns in real estate prices for different zip codes?*
 
-![image2.png](https://github.com/Lawez/phase-4-group-project/main/blob/Image2.png)
+![image2.png](https://github.com/Lawez/phase-4-group-project/main/blob/Images/image2.png)
 
 
 
