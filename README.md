@@ -1,8 +1,9 @@
 # phase-4-group-project
 
-![house.jpg](https://github.com/Lawez/phase-4-group-project/blob/main/images/house.jpg)
+![housejpg](https://github.com/Lawez/phase-4-group-project/blob/main/images/house.jpg)
 
 ## BUSINESS OVERVIEW INTRODUCTION
+
 
 Zillow is a leading online real estate marketplace that provides valuable services and tools for home buyers, sellers, renters, and real estate professionals.
 
