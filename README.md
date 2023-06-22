@@ -125,7 +125,7 @@ https://github.com/Lawez/phase-4-group-project/tree/main
 #### Question two
     *What are the historical trends and patterns in real estate prices for different zip codes?*
 
-![image2.pmg](https://github.com/Lawez/phase-4-group-project/blob/main/Image2.png)
+![image2.png](https://github.com/Lawez/phase-4-group-project/blob/main/Image2.png)
 
 
 
